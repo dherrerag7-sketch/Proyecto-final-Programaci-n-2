@@ -1,0 +1,112 @@
+-J-Duser.language=
+-J-Duser.country=
+@options
+@packages
+--no-fonts
+-classpath
+'C:/Users/andre/.m2/repository/com/google/firebase/firebase-admin/9.1.1/firebase-admin-9.1.1.jar;C:/Users/andre/.m2/repository/com/google/api-client/google-api-client/2.0.0/google-api-client-2.0.0.jar;C:/Users/andre/.m2/repository/com/google/oauth-client/google-oauth-client/1.34.1/google-oauth-client-1.34.1.jar;C:/Users/andre/.m2/repository/com/google/http-client/google-http-client-gson/1.42.1/google-http-client-gson-1.42.1.jar;C:/Users/andre/.m2/repository/com/google/http-client/google-http-client-apache-v2/1.42.1/google-http-client-apache-v2-1.42.1.jar;C:/Users/andre/.m2/repository/org/apache/httpcomponents/httpcore/4.4.15/httpcore-4.4.15.jar;C:/Users/andre/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar;C:/Users/andre/.m2/repository/com/google/api-client/google-api-client-gson/2.0.0/google-api-client-gson-2.0.0.jar;C:/Users/andre/.m2/repository/com/google/http-client/google-http-client/1.42.2/google-http-client-1.42.2.jar;C:/Users/andre/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar;C:/Users/andre/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar;C:/Users/andre/.m2/repository/io/opencensus/opencensus-api/0.31.1/opencensus-api-0.31.1.jar;C:/Users/andre/.m2/repository/io/opencensus/opencensus-contrib-http-util/0.31.1/opencensus-contrib-http-util-0.31.1.jar;C:/Users/andre/.m2/repository/com/google/api/api-common/2.2.1/api-common-2.2.1.jar;C:/Users/andre/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar;C:/Users/andre/.m2/repository/com/google/auto/value/auto-value-annotations/1.9/auto-value-annotations-1.9.jar;C:/Users/andre/.m2/repository/com/google/auth/google-auth-library-oauth2-http/1.12.1/google-auth-library-oauth2-http-1.12.1.jar;C:/Users/andre/.m2/repository/com/google/auth/google-auth-library-credentials/1.12.1/google-auth-library-credentials-1.12.1.jar;C:/Users/andre/.m2/repository/com/google/cloud/google-cloud-storage/2.14.0/google-cloud-storage-2.14.0.jar;C:/Users/andre/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar;C:/Users/andre/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:/Users/andre/.m2/repository/com/google/http-client/google-http-client-jackson2/1.42.2/google-http-client-jackson2-1.42.2.jar;C:/Users/andre/.m2/repository/com/google/apis/google-api-services-storage/v1-rev20220705-2.0.0/google-api-services-storage-v1-rev20220705-2.0.0.jar;C:/Users/andre/.m2/repository/com/google/cloud/google-cloud-core/2.8.22/google-cloud-core-2.8.22.jar;C:/Users/andre/.m2/repository/com/google/cloud/google-cloud-core-http/2.8.22/google-cloud-core-http-2.8.22.jar;C:/Users/andre/.m2/repository/com/google/http-client/google-http-client-appengine/1.42.2/google-http-client-appengine-1.42.2.jar;C:/Users/andre/.m2/repository/com/google/api/gax-httpjson/0.104.4/gax-httpjson-0.104.4.jar;C:/Users/andre/.m2/repository/com/google/cloud/google-cloud-core-grpc/2.8.22/google-cloud-core-grpc-2.8.22.jar;C:/Users/andre/.m2/repository/io/grpc/grpc-core/1.50.1/grpc-core-1.50.1.jar;C:/Users/andre/.m2/repository/com/google/api/gax/2.19.4/gax-2.19.4.jar;C:/Users/andre/.m2/repository/com/google/api/gax-grpc/2.19.4/gax-grpc-2.19.4.jar;C:/Users/andre/.m2/repository/io/grpc/grpc-context/1.50.1/grpc-context-1.50.1.jar;C:/Users/andre/.m2/repository/com/google/api/grpc/proto-google-iam-v1/1.6.4/proto-google-iam-v1-1.6.4.jar;C:/Users/andre/.m2/repository/com/google/protobuf/protobuf-java/3.21.8/protobuf-java-3.21.8.jar;C:/Users/andre/.m2/repository/com/google/protobuf/protobuf-java-util/3.21.8/protobuf-java-util-3.21.8.jar;C:/Users/andre/.m2/repository/com/google/api/grpc/proto-google-common-protos/2.9.6/proto-google-common-protos-2.9.6.jar;C:/Users/andre/.m2/repository/org/threeten/threetenbp/1.6.3/threetenbp-1.6.3.jar;C:/Users/andre/.m2/repository/com/google/api/grpc/proto-google-cloud-storage-v2/2.14.0-alpha/proto-google-cloud-storage-v2-2.14.0-alpha.jar;C:/Users/andre/.m2/repository/com/google/api/grpc/grpc-google-cloud-storage-v2/2.14.0-alpha/grpc-google-cloud-storage-v2-2.14.0-alpha.jar;C:/Users/andre/.m2/repository/io/grpc/grpc-protobuf/1.50.1/grpc-protobuf-1.50.1.jar;C:/Users/andre/.m2/repository/com/google/api/grpc/gapic-google-cloud-storage-v2/2.14.0-alpha/gapic-google-cloud-storage-v2-2.14.0-alpha.jar;C:/Users/andre/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.4/jackson-core-2.13.4.jar;C:/Users/andre/.m2/repository/io/grpc/grpc-api/1.50.1/grpc-api-1.50.1.jar;C:/Users/andre/.m2/repository/io/grpc/grpc-auth/1.50.1/grpc-auth-1.50.1.jar;C:/Users/andre/.m2/repository/io/grpc/grpc-stub/1.50.1/grpc-stub-1.50.1.jar;C:/Users/andre/.m2/repository/org/checkerframework/checker-qual/3.26.0/checker-qual-3.26.0.jar;C:/Users/andre/.m2/repository/com/google/api/grpc/grpc-google-iam-v1/1.6.4/grpc-google-iam-v1-1.6.4.jar;C:/Users/andre/.m2/repository/io/grpc/grpc-protobuf-lite/1.50.1/grpc-protobuf-lite-1.50.1.jar;C:/Users/andre/.m2/repository/com/google/cloud/google-cloud-firestore/3.7.0/google-cloud-firestore-3.7.0.jar;C:/Users/andre/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar;C:/Users/andre/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar;C:/Users/andre/.m2/repository/com/google/api/grpc/proto-google-cloud-firestore-v1/3.7.0/proto-google-cloud-firestore-v1-3.7.0.jar;C:/Users/andre/.m2/repository/com/google/cloud/proto-google-cloud-firestore-bundle-v1/3.7.0/proto-google-cloud-firestore-bundle-v1-3.7.0.jar;C:/Users/andre/.m2/repository/io/opencensus/opencensus-contrib-grpc-util/0.31.1/opencensus-contrib-grpc-util-0.31.1.jar;C:/Users/andre/.m2/repository/com/google/errorprone/error_prone_annotations/2.16/error_prone_annotations-2.16.jar;C:/Users/andre/.m2/repository/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar;C:/Users/andre/.m2/repository/org/slf4j/slf4j-api/2.0.3/slf4j-api-2.0.3.jar;C:/Users/andre/.m2/repository/io/netty/netty-codec-http/4.1.84.Final/netty-codec-http-4.1.84.Final.jar;C:/Users/andre/.m2/repository/io/netty/netty-common/4.1.84.Final/netty-common-4.1.84.Final.jar;C:/Users/andre/.m2/repository/io/netty/netty-buffer/4.1.84.Final/netty-buffer-4.1.84.Final.jar;C:/Users/andre/.m2/repository/io/netty/netty-codec/4.1.84.Final/netty-codec-4.1.84.Final.jar;C:/Users/andre/.m2/repository/io/netty/netty-handler/4.1.84.Final/netty-handler-4.1.84.Final.jar;C:/Users/andre/.m2/repository/io/netty/netty-resolver/4.1.84.Final/netty-resolver-4.1.84.Final.jar;C:/Users/andre/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.84.Final/netty-transport-native-unix-common-4.1.84.Final.jar;C:/Users/andre/.m2/repository/io/netty/netty-transport/4.1.84.Final/netty-transport-4.1.84.Final.jar;C:/Users/andre/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar'
+-encoding
+'UTF-8'
+-protected
+-source
+'17'
+-sourcepath
+'C:/Users/andre/OneDrive/Escritorio/codigos/proyecto final progra 2/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2025. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/andre/OneDrive/Escritorio/codigos/proyecto final progra 2/target/reports/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'ProyectoFinal 1.0-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'ProyectoFinal 1.0-SNAPSHOT API'
+com.gestormascotas
+com.gestormascotas.firebase
+C:\Users\andre\.m2\repository\com\google\firebase\firebase-admin\9.1.1\firebase-admin-9.1.1.jar = 1762911029826
+C:\Users\andre\.m2\repository\com\google\api-client\google-api-client\2.0.0\google-api-client-2.0.0.jar = 1762911031617
+C:\Users\andre\.m2\repository\com\google\oauth-client\google-oauth-client\1.34.1\google-oauth-client-1.34.1.jar = 1762911030044
+C:\Users\andre\.m2\repository\com\google\http-client\google-http-client-gson\1.42.1\google-http-client-gson-1.42.1.jar = 1762911030481
+C:\Users\andre\.m2\repository\com\google\http-client\google-http-client-apache-v2\1.42.1\google-http-client-apache-v2-1.42.1.jar = 1762911030492
+C:\Users\andre\.m2\repository\org\apache\httpcomponents\httpcore\4.4.15\httpcore-4.4.15.jar = 1762911031818
+C:\Users\andre\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar = 1762911031524
+C:\Users\andre\.m2\repository\com\google\api-client\google-api-client-gson\2.0.0\google-api-client-gson-2.0.0.jar = 1762911030987
+C:\Users\andre\.m2\repository\com\google\http-client\google-http-client\1.42.2\google-http-client-1.42.2.jar = 1762911033097
+C:\Users\andre\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar = 1762911031519
+C:\Users\andre\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar = 1762911032291
+C:\Users\andre\.m2\repository\io\opencensus\opencensus-api\0.31.1\opencensus-api-0.31.1.jar = 1762911036358
+C:\Users\andre\.m2\repository\io\opencensus\opencensus-contrib-http-util\0.31.1\opencensus-contrib-http-util-0.31.1.jar = 1762911032635
+C:\Users\andre\.m2\repository\com\google\api\api-common\2.2.1\api-common-2.2.1.jar = 1762911033029
+C:\Users\andre\.m2\repository\javax\annotation\javax.annotation-api\1.3.2\javax.annotation-api-1.3.2.jar = 1762911033191
+C:\Users\andre\.m2\repository\com\google\auto\value\auto-value-annotations\1.9\auto-value-annotations-1.9.jar = 1762911033277
+C:\Users\andre\.m2\repository\com\google\auth\google-auth-library-oauth2-http\1.12.1\google-auth-library-oauth2-http-1.12.1.jar = 1762911033616
+C:\Users\andre\.m2\repository\com\google\auth\google-auth-library-credentials\1.12.1\google-auth-library-credentials-1.12.1.jar = 1762911033643
+C:\Users\andre\.m2\repository\com\google\cloud\google-cloud-storage\2.14.0\google-cloud-storage-2.14.0.jar = 1762911037077
+C:\Users\andre\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar = 1762911035991
+C:\Users\andre\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar = 1762911036102
+C:\Users\andre\.m2\repository\com\google\http-client\google-http-client-jackson2\1.42.2\google-http-client-jackson2-1.42.2.jar = 1762911036115
+C:\Users\andre\.m2\repository\com\google\apis\google-api-services-storage\v1-rev20220705-2.0.0\google-api-services-storage-v1-rev20220705-2.0.0.jar = 1762911036667
+C:\Users\andre\.m2\repository\com\google\cloud\google-cloud-core\2.8.22\google-cloud-core-2.8.22.jar = 1762911036872
+C:\Users\andre\.m2\repository\com\google\cloud\google-cloud-core-http\2.8.22\google-cloud-core-http-2.8.22.jar = 1762911036891
+C:\Users\andre\.m2\repository\com\google\http-client\google-http-client-appengine\1.42.2\google-http-client-appengine-1.42.2.jar = 1762911036951
+C:\Users\andre\.m2\repository\com\google\api\gax-httpjson\0.104.4\gax-httpjson-0.104.4.jar = 1762911037314
+C:\Users\andre\.m2\repository\com\google\cloud\google-cloud-core-grpc\2.8.22\google-cloud-core-grpc-2.8.22.jar = 1762911037386
+C:\Users\andre\.m2\repository\io\grpc\grpc-core\1.50.1\grpc-core-1.50.1.jar = 1762911051707
+C:\Users\andre\.m2\repository\com\google\api\gax\2.19.4\gax-2.19.4.jar = 1762911038791
+C:\Users\andre\.m2\repository\com\google\api\gax-grpc\2.19.4\gax-grpc-2.19.4.jar = 1762911038060
+C:\Users\andre\.m2\repository\io\grpc\grpc-context\1.50.1\grpc-context-1.50.1.jar = 1762911039530
+C:\Users\andre\.m2\repository\com\google\api\grpc\proto-google-iam-v1\1.6.4\proto-google-iam-v1-1.6.4.jar = 1762911040085
+C:\Users\andre\.m2\repository\com\google\protobuf\protobuf-java\3.21.8\protobuf-java-3.21.8.jar = 1762911066570
+C:\Users\andre\.m2\repository\com\google\protobuf\protobuf-java-util\3.21.8\protobuf-java-util-3.21.8.jar = 1762911041957
+C:\Users\andre\.m2\repository\com\google\api\grpc\proto-google-common-protos\2.9.6\proto-google-common-protos-2.9.6.jar = 1762911089209
+C:\Users\andre\.m2\repository\org\threeten\threetenbp\1.6.3\threetenbp-1.6.3.jar = 1762911050293
+C:\Users\andre\.m2\repository\com\google\api\grpc\proto-google-cloud-storage-v2\2.14.0-alpha\proto-google-cloud-storage-v2-2.14.0-alpha.jar = 1762911076836
+C:\Users\andre\.m2\repository\com\google\api\grpc\grpc-google-cloud-storage-v2\2.14.0-alpha\grpc-google-cloud-storage-v2-2.14.0-alpha.jar = 1762911055639
+C:\Users\andre\.m2\repository\io\grpc\grpc-protobuf\1.50.1\grpc-protobuf-1.50.1.jar = 1762911057629
+C:\Users\andre\.m2\repository\com\google\api\grpc\gapic-google-cloud-storage-v2\2.14.0-alpha\gapic-google-cloud-storage-v2-2.14.0-alpha.jar = 1762911060302
+C:\Users\andre\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.4\jackson-core-2.13.4.jar = 1762911081959
+C:\Users\andre\.m2\repository\io\grpc\grpc-api\1.50.1\grpc-api-1.50.1.jar = 1762911077153
+C:\Users\andre\.m2\repository\io\grpc\grpc-auth\1.50.1\grpc-auth-1.50.1.jar = 1762911078684
+C:\Users\andre\.m2\repository\io\grpc\grpc-stub\1.50.1\grpc-stub-1.50.1.jar = 1762911087031
+C:\Users\andre\.m2\repository\org\checkerframework\checker-qual\3.26.0\checker-qual-3.26.0.jar = 1762911090098
+C:\Users\andre\.m2\repository\com\google\api\grpc\grpc-google-iam-v1\1.6.4\grpc-google-iam-v1-1.6.4.jar = 1762911111419
+C:\Users\andre\.m2\repository\io\grpc\grpc-protobuf-lite\1.50.1\grpc-protobuf-lite-1.50.1.jar = 1762911111408
+C:\Users\andre\.m2\repository\com\google\cloud\google-cloud-firestore\3.7.0\google-cloud-firestore-3.7.0.jar = 1762911158003
+C:\Users\andre\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar = 1762911116727
+C:\Users\andre\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar = 1762911152009
+C:\Users\andre\.m2\repository\com\google\api\grpc\proto-google-cloud-firestore-v1\3.7.0\proto-google-cloud-firestore-v1-3.7.0.jar = 1762911216913
+C:\Users\andre\.m2\repository\com\google\cloud\proto-google-cloud-firestore-bundle-v1\3.7.0\proto-google-cloud-firestore-bundle-v1-3.7.0.jar = 1762911156364
+C:\Users\andre\.m2\repository\io\opencensus\opencensus-contrib-grpc-util\0.31.1\opencensus-contrib-grpc-util-0.31.1.jar = 1762911156960
+C:\Users\andre\.m2\repository\com\google\errorprone\error_prone_annotations\2.16\error_prone_annotations-2.16.jar = 1762911158065
+C:\Users\andre\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar = 1762911245823
+C:\Users\andre\.m2\repository\org\slf4j\slf4j-api\2.0.3\slf4j-api-2.0.3.jar = 1762911159146
+C:\Users\andre\.m2\repository\io\netty\netty-codec-http\4.1.84.Final\netty-codec-http-4.1.84.Final.jar = 1762911198637
+C:\Users\andre\.m2\repository\io\netty\netty-common\4.1.84.Final\netty-common-4.1.84.Final.jar = 1762911225850
+C:\Users\andre\.m2\repository\io\netty\netty-buffer\4.1.84.Final\netty-buffer-4.1.84.Final.jar = 1762911224967
+C:\Users\andre\.m2\repository\io\netty\netty-codec\4.1.84.Final\netty-codec-4.1.84.Final.jar = 1762911231875
+C:\Users\andre\.m2\repository\io\netty\netty-handler\4.1.84.Final\netty-handler-4.1.84.Final.jar = 1762911235393
+C:\Users\andre\.m2\repository\io\netty\netty-resolver\4.1.84.Final\netty-resolver-4.1.84.Final.jar = 1762911232325
+C:\Users\andre\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.84.Final\netty-transport-native-unix-common-4.1.84.Final.jar = 1762911233062
+C:\Users\andre\.m2\repository\io\netty\netty-transport\4.1.84.Final\netty-transport-4.1.84.Final.jar = 1762911239570
+C:\Users\andre\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar = 1762911240288
+C:\Users\andre\OneDrive\Escritorio\codigos\proyecto final progra 2\src\main\java = 1762914812103
+C:\Users\andre\OneDrive\Escritorio\codigos\proyecto final progra 2\target\reports\apidocs\allclasses-index.html = 1763259758316
+C:\Users\andre\OneDrive\Escritorio\codigos\proyecto final progra 2\target\reports\apidocs\allpackages-index.html = 1763259758322
+C:\Users\andre\OneDrive\Escritorio\codigos\proyecto final progra 2\target\reports\apidocs\element-list = 1763259758181
+C:\Users\andre\OneDrive\Escritorio\codigos\proyecto final progra 2\target\reports\apidocs\help-doc.html = 1763259758374
+C:\Users\andre\OneDrive\Escritorio\codigos\proyecto final progra 2\target\reports\apidocs\index-all.html = 1763259758356
+C:\Users\andre\OneDrive\Escritorio\codigos\proyecto final progra 2\target\reports\apidocs\index.html = 1763259758289
+C:\Users\andre\OneDrive\Escritorio\codigos\proyecto final progra 2\target\reports\apidocs\member-search-index.js = 1763259758331
+C:\Users\andre\OneDrive\Escritorio\codigos\proyecto final progra 2\target\reports\apidocs\module-search-index.js = 1763259758325
+C:\Users\andre\OneDrive\Escritorio\codigos\proyecto final progra 2\target\reports\apidocs\overview-summary.html = 1763259758365
+C:\Users\andre\OneDrive\Escritorio\codigos\proyecto final progra 2\target\reports\apidocs\overview-tree.html = 1763259758282
+C:\Users\andre\OneDrive\Escritorio\codigos\proyecto final progra 2\target\reports\apidocs\package-search-index.js = 1763259758326
+C:\Users\andre\OneDrive\Escritorio\codigos\proyecto final progra 2\target\reports\apidocs\search.html = 1763259758361
+C:\Users\andre\OneDrive\Escritorio\codigos\proyecto final progra 2\target\reports\apidocs\tag-search-index.js = 1763259758334
+C:\Users\andre\OneDrive\Escritorio\codigos\proyecto final progra 2\target\reports\apidocs\type-search-index.js = 1763259758328
